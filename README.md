@@ -51,7 +51,7 @@
 │  identity   :: Lycoris Neumann                                      │
 │  species    :: Bestial                                              │
 │  lineage    :: Sleipnir                                             │
-│  occupation :: student / engineer / developer                       │
+│  occupation :: student                                              │
 │                                                                     │
 │  status     :: ONLINE                                               │
 │  uptime     :: ???                                                  │
