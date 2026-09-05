@@ -272,7 +272,7 @@ nothing to commit, working tree clean
 ```
 
 <div align="center">
-
+    
 # ❝ Code is like humor. When you have to explain, it's bad ❞
 #### Cory House
 </div>
@@ -280,7 +280,6 @@ nothing to commit, working tree clean
 ---
 
 ## `~/activity`
-
 <div align="center">
   <img
     src="https://raw.githubusercontent.com/Figurante-Figs/Figurante-Figs/main/assets/activity.svg"
@@ -288,6 +287,7 @@ nothing to commit, working tree clean
     alt="Lyco activity monitor"
   >
 </div>
+
 ```text
     "It's time to go back to studying!"
 ```
