@@ -7,6 +7,40 @@
 ██║       ╚██╔╝  ██║     ██║   ██║██╔══██╗██║╚════██║
 ███████╗   ██║   ╚██████╗╚██████╔╝██║  ██║██║███████║
 ╚══════╝   ╚═╝    ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝╚══════╝
+
+
++--------------------------------------------------------------------------------+
+|MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM|
+|MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM|
+|MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWX0OxdoooxkO0KXXXWMMMMMMMMMMMMMMMMMMMMMMMMMMMMM|
+|MMMMMMXodOXWMMMMMMMMMMMMMMMWKxo:'.... ......';:ldOXMMMMMMMMMMMMMMMMMMMMMMMMMMMMM|
+|MMMMMMMNx, ..,:coxKMMMMMKdc'...  ...................cxXMMMMMMMMMMMMMMMMMMMMMMMMM|
+|MMMMMMMMMMK:       .lOo.....   ...........      .   ...'oXMMMMMMMMMMMMMMMMMMMMMM|
+|MMMMMMMMMMMMO.          ..............','..  ..  ....... .cXMMMMMMMMMMMMMMMMMMMM|
+|MMMMMMMMMMMMMWd.       .................' ;cc:ccc,;c;',:;'..cNMMMMMMMMMMMMMMMMMM|
+|MMMMMMMMMMMMMMMM,     .......................';;:cccc:ccccc:,'0MMMMMMMMMMMMMMMMM|
+|MMMMMMMMMMMMMMMW.     .......................'''ccccc:cccccccclKWMMMMMMMMMMMMMMM|
+|MMMMMMMMMMNdokWW.    .. ....................',;:cccc:ccccccccccclxKMMMMMMMMMMMMM|
+|MMMMMMMMMX..;:':.    ..  ...............',;ccccccccc:ccccccccccccclMMMMMMMMMMMMM|
+|MMMMMMMMM'.XMMl      ...  .... ........'',;;;:cccccc:ccccccccccccc0MMMMMMMMMMMMM|
+|MMMMMMMMW oMMN       . ....... ,,,.,,..;cclccccccccc:cccccccccccccWMMMMMMMMMMMMM|
+|MMMMMMMMM.dMMX       . ....... .,::c' clllll:ccccccc,cccccccccccc.oMMMMMMMMMMMMM|
+|MMMMMMMMMd'MMK       .   .........';, ,...';ccccccccccccccccccccc. oMMMMMMMMMMMM|
+|MMMMMMMMMM;lMX               ........   ..llccccccccccccccccccccc:. ,kkxxxdxk0XW|
+|MMMMMMMMMXx :l          .....   ...... ..'c:ccc::cccc:cccccc;cccccc,  .;cccclc:l|
+|MMMMW0d:.            .    ............,,,cccc;'.,ccc:.'cc:,';ccccccc;    .',':ll|
+|Kxl,.                ..     ....................;;,...,;'..;ccccccccc;,,'.....',|
+|                 .    .     ................     ..........:::cccccccc:ccc:;....|
+|Okxdoc:,..       .         ........          ......  ......;:::::cccccc::c:cc,..|
+|MMMMMMMMMMNK0OO0X' ...         ................             ...,:::ccccccccccc;.|
+|MMMMMMMMMMMMMMMMMWc                .                            ..,:cccccccccc;.|
+|MMMMMMMMMMMMMMMMMMMK'                                           .  .;cccc::cc'.'|
+|MMMMMMMMMMMMMMMMMMMMMo                                   ........   .'cc::c;.',.|
+|MMMMMMMMMMMMMMMMMMMMMk xo.                               ....;;;;,'.. ;:::'..'..|
+|MMMMMMMMMMMMMMMMMMMMMKKMMX  ol.          .                 .;:::::::..:::::::cc;|
+|MMMMMMMMMMMMMMMMMMMMMMMMMM,.NMM0l.    .,co'...''.        ...;;::::;,,ccccclllll'|
+|MMMMMMMMMMMMMMMMMMMMMMMMMM'0MMMMMM0'        ....         ...;;;::::cccccccllllc,|
++--------------------------------------------------------------------------------+
 ```
 
 ```text
@@ -247,49 +281,16 @@ nothing to commit, working tree clean
 
 ## `~/activity`
 
+<div align="center">
+  <img
+    src="https://raw.githubusercontent.com/Figurante-Figs/Figurante-Figs/main/assets/activity.svg"
+    width="900"
+    alt="Lyco activity monitor"
+  >
+</div>
 ```text
-+--------------------------------------------------------------------------------+
-|MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM|
-|MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM|
-|MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWX0OxdoooxkO0KXXXWMMMMMMMMMMMMMMMMMMMMMMMMMMMMM|
-|MMMMMMXodOXWMMMMMMMMMMMMMMMWKxo:'.... ......';:ldOXMMMMMMMMMMMMMMMMMMMMMMMMMMMMM|
-|MMMMMMMNx, ..,:coxKMMMMMKdc'...  ...................cxXMMMMMMMMMMMMMMMMMMMMMMMMM|
-|MMMMMMMMMMK:       .lOo.....   ...........      .   ...'oXMMMMMMMMMMMMMMMMMMMMMM|
-|MMMMMMMMMMMMO.          ..............','..  ..  ....... .cXMMMMMMMMMMMMMMMMMMMM|
-|MMMMMMMMMMMMMWd.       .................' ;cc:ccc,;c;',:;'..cNMMMMMMMMMMMMMMMMMM|
-|MMMMMMMMMMMMMMMM,     .......................';;:cccc:ccccc:,'0MMMMMMMMMMMMMMMMM|
-|MMMMMMMMMMMMMMMW.     .......................'''ccccc:cccccccclKWMMMMMMMMMMMMMMM|
-|MMMMMMMMMMNdokWW.    .. ....................',;:cccc:ccccccccccclxKMMMMMMMMMMMMM|
-|MMMMMMMMMX..;:':.    ..  ...............',;ccccccccc:ccccccccccccclMMMMMMMMMMMMM|
-|MMMMMMMMM'.XMMl      ...  .... ........'',;;;:cccccc:ccccccccccccc0MMMMMMMMMMMMM|
-|MMMMMMMMW oMMN       . ....... ,,,.,,..;cclccccccccc:cccccccccccccWMMMMMMMMMMMMM|
-|MMMMMMMMM.dMMX       . ....... .,::c' clllll:ccccccc,cccccccccccc.oMMMMMMMMMMMMM|
-|MMMMMMMMMd'MMK       .   .........';, ,...';ccccccccccccccccccccc. oMMMMMMMMMMMM|
-|MMMMMMMMMM;lMX               ........   ..llccccccccccccccccccccc:. ,kkxxxdxk0XW|
-|MMMMMMMMMXx :l          .....   ...... ..'c:ccc::cccc:cccccc;cccccc,  .;cccclc:l|
-|MMMMW0d:.            .    ............,,,cccc;'.,ccc:.'cc:,';ccccccc;    .',':ll|
-|Kxl,.                ..     ....................;;,...,;'..;ccccccccc;,,'.....',|
-|                 .    .     ................     ..........:::cccccccc:ccc:;....|
-|Okxdoc:,..       .         ........          ......  ......;:::::cccccc::c:cc,..|
-|MMMMMMMMMMNK0OO0X' ...         ................             ...,:::ccccccccccc;.|
-|MMMMMMMMMMMMMMMMMWc                .                            ..,:cccccccccc;.|
-|MMMMMMMMMMMMMMMMMMMK'                                           .  .;cccc::cc'.'|
-|MMMMMMMMMMMMMMMMMMMMMo                                   ........   .'cc::c;.',.|
-|MMMMMMMMMMMMMMMMMMMMMk xo.                               ....;;;;,'.. ;:::'..'..|
-|MMMMMMMMMMMMMMMMMMMMMKKMMX  ol.          .                 .;:::::::..:::::::cc;|
-|MMMMMMMMMMMMMMMMMMMMMMMMMM,.NMM0l.    .,co'...''.        ...;;::::;,,ccccclllll'|
-|MMMMMMMMMMMMMMMMMMMMMMMMMM'0MMMMMM0'        ....         ...;;;::::cccccccllllc,|
-+--------------------------------------------------------------------------------+
-       "It's time to go back to studying!"
+    "It's time to go back to studying!"
 ```
-
-<div align="center">
-
-<div align="center">
-    <img src="./assets/activity.svg" width="900">
-</div>
-</div>
-
 ---
 
 ## `~/notes`
