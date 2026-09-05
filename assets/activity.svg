@@ -4,47 +4,55 @@
      viewBox="0 0 1000 430">
 
 <style>
-text {
-    font-family: "JetBrains Mono", "Fira Code", "DejaVu Sans Mono", monospace;
-}
+    text {
+        font-family:
+            "JetBrains Mono",
+            "Fira Code",
+            "DejaVu Sans Mono",
+            monospace;
+    }
 
-.title {
-    fill: #ffffff;
-    font-size: 20px;
-    font-weight: bold;
-}
+    .title {
+        fill: #ffffff;
+        font-size: 20px;
+        font-weight: bold;
+    }
 
-.small {
-    fill: #888888;
-    font-size: 12px;
-}
+    .small {
+        fill: #888888;
+        font-size: 12px;
+    }
 
-.label {
-    fill: #666666;
-    font-size: 11px;
-}
+    .label {
+        fill: #666666;
+        font-size: 11px;
+    }
 
-.cell {
-    font-size: 16px;
-    font-weight: bold;
-}
+    .cell {
+        font-size: 16px;
+        font-weight: bold;
+    }
 
-.l0 { fill: #252525; }
-.l1 { fill: #555555; }
-.l2 { fill: #999999; }
-.l3 { fill: #ffffff; }
+    .level-0 { fill: #252525; }
+    .level-1 { fill: #555555; }
+    .level-2 { fill: #999999; }
+    .level-3 { fill: #ffffff; }
 
-.border {
-    fill: none;
-    stroke: #333333;
-    stroke-width: 1;
-}
+    .border {
+        fill: none;
+        stroke: #333333;
+        stroke-width: 1;
+    }
 
-.line {
-    stroke: #ffffff;
-    stroke-width: 1;
-    opacity: 0.06;
-}
+    .scanline {
+        stroke: #ffffff;
+        stroke-width: 1;
+        opacity: 0.06;
+    }
+
+    .cursor {
+        fill: #ffffff;
+    }
 </style>
 
 <rect width="100%" height="100%" fill="#000000"/>
@@ -54,145 +62,2283 @@ text {
     y="20"
     width="960"
     height="390"
-    rx="2"
     class="border"
+    rx="2"
+    ry="2"
 />
 
 <text x="40" y="55" class="title">
-ACTIVITY MONITOR :: LYCO-SH v2.4
+    ACTIVITY MONITOR :: LYCO-SH v2.4
 </text>
 
-<text x="40" y="76" class="small">
-Lyco@github :: contribution subsystem
+<text x="40" y="75" class="small">
+    user@github:Figurante-Figs :: contribution subsystem
 </text>
 
-<line x1="40" y1="95" x2="960" y2="95" class="line"/>
+<line x1="40" y1="105" x2="960" y2="105" class="scanline"/>
 
-<text x="40" y="125" class="label">
-ACTIVITY MATRIX
+<text x="40" y="130" class="label">ACTIVITY</text>
+
+
+                <text
+                    x="55"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="55"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="55"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="55"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="55"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="55"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="55"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="73"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="73"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="73"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="73"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="73"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="73"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="73"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="91"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="91"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="91"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="91"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="91"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="91"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="91"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="109"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="109"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="109"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="109"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="109"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="109"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="109"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="127"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="127"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="127"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="127"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="127"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="127"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="127"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="145"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="145"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="145"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="145"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="145"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="145"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="145"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="163"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="163"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="163"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="163"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="163"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="163"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="163"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="181"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="181"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="181"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="181"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="181"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="181"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="181"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="199"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="199"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="199"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="199"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="199"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="199"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="199"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="217"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="217"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="217"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="217"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="217"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="217"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="217"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="235"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="235"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="235"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="235"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="235"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="235"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="235"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="253"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="253"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="253"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="253"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="253"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="253"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="253"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="271"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="271"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="271"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="271"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="271"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="271"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="271"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="289"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="289"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="289"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="289"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="289"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="289"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="289"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="307"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="307"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="307"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="307"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="307"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="307"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="307"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="325"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="325"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="325"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="325"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="325"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="325"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="325"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="343"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="343"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="343"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="343"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="343"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="343"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="343"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="361"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="361"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="361"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="361"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="361"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="361"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="361"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="379"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="379"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="379"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="379"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="379"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="379"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="379"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="397"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="397"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="397"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="397"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="397"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="397"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="397"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="415"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="415"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="415"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="415"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="415"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="415"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="415"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="433"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="433"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="433"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="433"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="433"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="433"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="433"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="451"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="451"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="451"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="451"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="451"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="451"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="451"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="469"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="469"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="469"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="469"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="469"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="469"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="469"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="487"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="487"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="487"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="487"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="487"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="487"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="487"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="505"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="505"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="505"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="505"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="505"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="505"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="505"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="523"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="523"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="523"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="523"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="523"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="523"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="523"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="541"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="541"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="541"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="541"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="541"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="541"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="541"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="559"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="559"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="559"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="559"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="559"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="559"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="559"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="577"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="577"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="577"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="577"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="577"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="577"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="577"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="595"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="595"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="595"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="595"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="595"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="595"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="595"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="613"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="613"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="613"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="613"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="613"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="613"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="613"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="631"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="631"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="631"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="631"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="631"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="631"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="631"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="649"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="649"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="649"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="649"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="649"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="649"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="649"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="667"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="667"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="667"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="667"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="667"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="667"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="667"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="685"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="685"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="685"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="685"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="685"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="685"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="685"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="703"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="703"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="703"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="703"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="703"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="703"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="703"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="721"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="721"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="721"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="721"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="721"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="721"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="721"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="739"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="739"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="739"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="739"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="739"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="739"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="739"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="757"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="757"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="757"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="757"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="757"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="757"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="757"
+                    y="210"
+                    class="cell level-1"
+                >▒</text>
+            
+                <text
+                    x="775"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="775"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="775"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="775"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="775"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="775"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="775"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="793"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="793"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="793"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="793"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="793"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="793"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="793"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="811"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="811"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="811"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="811"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="811"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="811"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="811"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="829"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="829"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="829"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="829"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="829"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="829"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="829"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="847"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="847"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="847"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="847"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="847"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="847"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="847"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="865"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="865"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="865"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="865"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="865"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="865"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="865"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="883"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="883"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="883"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="883"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="883"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="883"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="883"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="901"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="901"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="901"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="901"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="901"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="901"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="901"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="919"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="919"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="919"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="919"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="919"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="919"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="919"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="937"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="937"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="937"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="937"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="937"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="937"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="937"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="955"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="955"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="955"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="955"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="955"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="955"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="955"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="973"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="973"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="973"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="973"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="973"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="973"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="973"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="991"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="991"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="991"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="991"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="991"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="991"
+                    y="192"
+                    class="cell level-3"
+                >█</text>
+            
+                <text
+                    x="991"
+                    y="210"
+                    class="cell level-1"
+                >▒</text>
+            
+
+<line x1="40" y1="265" x2="960" y2="265" class="scanline"/>
+
+<text x="40" y="295" class="small">
+    COMMITS / CONTRIBUTIONS
 </text>
 
-<!-- activity -->
-<text x="55"  y="155" class="cell l0">░</text>
-<text x="75"  y="155" class="cell l1">▒</text>
-<text x="95"  y="155" class="cell l0">░</text>
-<text x="115" y="155" class="cell l2">▓</text>
-<text x="135" y="155" class="cell l3">█</text>
-<text x="155" y="155" class="cell l1">▒</text>
-<text x="175" y="155" class="cell l0">░</text>
-<text x="195" y="155" class="cell l2">▓</text>
-<text x="215" y="155" class="cell l3">█</text>
-<text x="235" y="155" class="cell l1">▒</text>
-<text x="255" y="155" class="cell l0">░</text>
-<text x="275" y="155" class="cell l1">▒</text>
-<text x="295" y="155" class="cell l3">█</text>
-<text x="315" y="155" class="cell l0">░</text>
-<text x="335" y="155" class="cell l2">▓</text>
-<text x="355" y="155" class="cell l1">▒</text>
-<text x="375" y="155" class="cell l0">░</text>
-<text x="395" y="155" class="cell l3">█</text>
-<text x="415" y="155" class="cell l2">▓</text>
-<text x="435" y="155" class="cell l0">░</text>
-<text x="455" y="155" class="cell l1">▒</text>
-<text x="475" y="155" class="cell l3">█</text>
-<text x="495" y="155" class="cell l1">▒</text>
-<text x="515" y="155" class="cell l0">░</text>
-<text x="535" y="155" class="cell l2">▓</text>
-<text x="555" y="155" class="cell l3">█</text>
-<text x="575" y="155" class="cell l0">░</text>
-<text x="595" y="155" class="cell l1">▒</text>
-<text x="615" y="155" class="cell l2">▓</text>
-<text x="635" y="155" class="cell l0">░</text>
-<text x="655" y="155" class="cell l3">█</text>
-<text x="675" y="155" class="cell l1">▒</text>
-<text x="695" y="155" class="cell l0">░</text>
-<text x="715" y="155" class="cell l2">▓</text>
-<text x="735" y="155" class="cell l3">█</text>
-<text x="755" y="155" class="cell l1">▒</text>
-<text x="775" y="155" class="cell l0">░</text>
-<text x="795" y="155" class="cell l2">▓</text>
-<text x="815" y="155" class="cell l1">▒</text>
-<text x="835" y="155" class="cell l3">█</text>
-<text x="855" y="155" class="cell l0">░</text>
-<text x="875" y="155" class="cell l2">▓</text>
-<text x="895" y="155" class="cell l1">▒</text>
-
-<text x="55"  y="180" class="cell l1">▒</text>
-<text x="75"  y="180" class="cell l0">░</text>
-<text x="95"  y="180" class="cell l2">▓</text>
-<text x="115" y="180" class="cell l3">█</text>
-<text x="135" y="180" class="cell l0">░</text>
-<text x="155" y="180" class="cell l1">▒</text>
-<text x="175" y="180" class="cell l3">█</text>
-<text x="195" y="180" class="cell l2">▓</text>
-<text x="215" y="180" class="cell l0">░</text>
-<text x="235" y="180" class="cell l1">▒</text>
-<text x="255" y="180" class="cell l2">▓</text>
-<text x="275" y="180" class="cell l0">░</text>
-<text x="295" y="180" class="cell l3">█</text>
-<text x="315" y="180" class="cell l1">▒</text>
-<text x="335" y="180" class="cell l0">░</text>
-<text x="355" y="180" class="cell l2">▓</text>
-<text x="375" y="180" class="cell l3">█</text>
-<text x="395" y="180" class="cell l0">░</text>
-<text x="415" y="180" class="cell l1">▒</text>
-<text x="435" y="180" class="cell l2">▓</text>
-<text x="455" y="180" class="cell l0">░</text>
-<text x="475" y="180" class="cell l3">█</text>
-<text x="495" y="180" class="cell l1">▒</text>
-<text x="515" y="180" class="cell l2">▓</text>
-<text x="535" y="180" class="cell l0">░</text>
-<text x="555" y="180" class="cell l3">█</text>
-<text x="575" y="180" class="cell l1">▒</text>
-<text x="595" y="180" class="cell l0">░</text>
-<text x="615" y="180" class="cell l2">▓</text>
-<text x="635" y="180" class="cell l3">█</text>
-<text x="655" y="180" class="cell l0">░</text>
-<text x="675" y="180" class="cell l1">▒</text>
-<text x="695" y="180" class="cell l2">▓</text>
-<text x="715" y="180" class="cell l0">░</text>
-<text x="735" y="180" class="cell l3">█</text>
-<text x="755" y="180" class="cell l1">▒</text>
-<text x="775" y="180" class="cell l0">░</text>
-<text x="795" y="180" class="cell l2">▓</text>
-<text x="815" y="180" class="cell l3">█</text>
-<text x="835" y="180" class="cell l0">░</text>
-<text x="855" y="180" class="cell l1">▒</text>
-<text x="875" y="180" class="cell l2">▓</text>
-<text x="895" y="180" class="cell l0">░</text>
-
-<text x="55" y="215" class="small">
-MON
+<text x="40" y="325" class="title">
+    14
 </text>
 
-<text x="55" y="240" class="small">
-TUE
+<text x="130" y="325" class="small">
+    recorded events
 </text>
 
-<text x="55" y="265" class="small">
-WED
+<text x="40" y="355" class="small">
+    LAST SCAN ........ 2026-09-05 07:43:12 UTC
 </text>
 
-<text x="55" y="290" class="small">
-THU
-</text>
-
-<text x="55" y="315" class="small">
-FRI
-</text>
-
-<line x1="40" y1="335" x2="960" y2="335" class="line"/>
-
-<text x="40" y="360" class="small">
-CONTRIBUTIONS ............ AWAITING FIRST SYNC
-</text>
-
-<text x="40" y="382" class="small">
-STATUS ................... ONLINE
+<text x="40" y="380" class="small">
+    STATUS ........... ONLINE
 </text>
 
 <text x="40" y="402" class="small">
-MEMORY ................... EXTERNAL REDUNDANCY ENABLED
+    MEMORY ........... external redundancy enabled
 </text>
+
+<rect
+    x="948"
+    y="378"
+    width="7"
+    height="14"
+    class="cursor"
+/>
 
 </svg>
