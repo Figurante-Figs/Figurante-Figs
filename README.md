@@ -170,17 +170,8 @@ Recommended action:
 ```text
 ┌── PROJECTS ──────────────────────────────────────────────────────────┐
 │                                                                      │
-│  [01] ████████████████████  MECATRONICS                              │
-│       robotics / automation / embedded systems                       │
-│                                                                      │
-│  [02] ███████████████░░░░  SOFTWARE                                  │
-│       Python / C++ / C# / web                                        │
-│                                                                      │
-│  [03] ████████████░░░░░░░  BIOLOGY                                   │
-│       research / study / █████████████████                           │
-│                                                                      │
-│  [04] █████████████████░░  PROJECT ███████                           │
-│       status: CLASSIFIED                                             │
+│  [*]  ██████░░░░░░░░░░░░░  PROJECT                                   │
+│       Actually in progress...                                        │
 │                                                                      │
 └──────────────────────────────────────────────────────────────────────┘
 ```
