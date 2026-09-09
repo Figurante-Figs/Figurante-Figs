@@ -2282,6 +2282,12 @@
                     class="cell level-0"
                 >░</text>
             
+                <text
+                    x="991"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
 
 <line x1="40" y1="265" x2="960" y2="265" class="scanline"/>
 
@@ -2298,7 +2304,7 @@
 </text>
 
 <text x="40" y="355" class="small">
-    LAST SCAN ........ 2026-09-08 08:09:10 UTC
+    LAST SCAN ........ 2026-09-09 08:13:04 UTC
 </text>
 
 <text x="40" y="380" class="small">
