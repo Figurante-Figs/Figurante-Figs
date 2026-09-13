@@ -1673,52 +1673,52 @@
                 <text
                     x="721"
                     y="210"
-                    class="cell level-0"
-                >░</text>
-            
-                <text
-                    x="739"
-                    y="102"
-                    class="cell level-0"
-                >░</text>
-            
-                <text
-                    x="739"
-                    y="120"
-                    class="cell level-0"
-                >░</text>
-            
-                <text
-                    x="739"
-                    y="138"
-                    class="cell level-0"
-                >░</text>
-            
-                <text
-                    x="739"
-                    y="156"
-                    class="cell level-0"
-                >░</text>
-            
-                <text
-                    x="739"
-                    y="174"
-                    class="cell level-0"
-                >░</text>
-            
-                <text
-                    x="739"
-                    y="192"
-                    class="cell level-0"
-                >░</text>
-            
-                <text
-                    x="739"
-                    y="210"
                     class="cell level-1"
                 >▒</text>
             
                 <text
+                    x="739"
+                    y="102"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="739"
+                    y="120"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="739"
+                    y="138"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="739"
+                    y="156"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="739"
+                    y="174"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="739"
+                    y="192"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="739"
+                    y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
                     x="757"
                     y="102"
                     class="cell level-0"
@@ -2212,97 +2212,61 @@
             
                 <text
                     x="955"
-                    y="192"
-                    class="cell level-0"
-                >░</text>
-            
-                <text
-                    x="955"
-                    y="210"
-                    class="cell level-0"
-                >░</text>
-            
-                <text
-                    x="973"
-                    y="102"
-                    class="cell level-0"
-                >░</text>
-            
-                <text
-                    x="973"
-                    y="120"
-                    class="cell level-0"
-                >░</text>
-            
-                <text
-                    x="973"
-                    y="138"
-                    class="cell level-0"
-                >░</text>
-            
-                <text
-                    x="973"
-                    y="156"
-                    class="cell level-0"
-                >░</text>
-            
-                <text
-                    x="973"
-                    y="174"
-                    class="cell level-0"
-                >░</text>
-            
-                <text
-                    x="973"
                     y="192"
                     class="cell level-3"
                 >█</text>
             
                 <text
-                    x="973"
+                    x="955"
                     y="210"
                     class="cell level-1"
                 >▒</text>
             
                 <text
-                    x="991"
+                    x="973"
                     y="102"
                     class="cell level-0"
                 >░</text>
             
                 <text
-                    x="991"
+                    x="973"
                     y="120"
                     class="cell level-0"
                 >░</text>
             
                 <text
-                    x="991"
+                    x="973"
                     y="138"
                     class="cell level-0"
                 >░</text>
             
                 <text
-                    x="991"
+                    x="973"
                     y="156"
                     class="cell level-0"
                 >░</text>
             
                 <text
-                    x="991"
+                    x="973"
                     y="174"
                     class="cell level-0"
                 >░</text>
             
                 <text
-                    x="991"
+                    x="973"
                     y="192"
                     class="cell level-0"
                 >░</text>
             
                 <text
-                    x="991"
+                    x="973"
                     y="210"
+                    class="cell level-0"
+                >░</text>
+            
+                <text
+                    x="991"
+                    y="102"
                     class="cell level-0"
                 >░</text>
             
@@ -2322,7 +2286,7 @@
 </text>
 
 <text x="40" y="355" class="small">
-    LAST SCAN ........ 2026-09-12 07:58:17 UTC
+    LAST SCAN ........ 2026-09-13 08:22:42 UTC
 </text>
 
 <text x="40" y="380" class="small">
